@@ -72,6 +72,8 @@
   "keywords": [
     "Airflow",
     "Amazon Managed Workflows for Apache Airflow",
+    "Apache Airflow",
+    "MWAA",
     "cdk"
   ],
   "main": "lib/index.js",
