@@ -19,7 +19,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   },
   description: 'AWS CDK Construct Library for Amazon Managed Workflows for Apache Airflow',
   jsiiVersion: '~5.8.0',
-  keywords: ['Airflow', 'Amazon Managed Workflows for Apache Airflow'],
+  keywords: ['Airflow', 'Amazon Managed Workflows for Apache Airflow', 'Apache Airflow', 'MWAA'],
   license: 'MIT',
   name: 'aws_mwaa',
   packageName: '@robhan-cdk-lib/aws_mwaa',
