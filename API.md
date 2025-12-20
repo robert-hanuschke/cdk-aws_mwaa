@@ -198,7 +198,7 @@ Environment.isEnvironment(x: any)
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.Environment.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@robhan-cdk-lib/aws_mwaa.Environment.property.env">env</a></code> | <code>aws-cdk-lib.ResourceEnvironment</code> | The environment this resource belongs to. |
+| <code><a href="#@robhan-cdk-lib/aws_mwaa.Environment.property.env">env</a></code> | <code>aws-cdk-lib.interfaces.ResourceEnvironment</code> | The environment this resource belongs to. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.Environment.property.stack">stack</a></code> | <code>aws-cdk-lib.Stack</code> | The stack in which this resource is defined. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.Environment.property.airflowConfigurationOptions">airflowConfigurationOptions</a></code> | <code>{[ key: string ]: string}</code> | A list of key-value pairs containing the Airflow configuration options for your environment. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.Environment.property.environmentArn">environmentArn</a></code> | <code>string</code> | The ARN for the Amazon MWAA environment. |
@@ -255,16 +255,17 @@ The tree node.
 public readonly env: ResourceEnvironment;
 ```
 
-- *Type:* aws-cdk-lib.ResourceEnvironment
+- *Type:* aws-cdk-lib.interfaces.ResourceEnvironment
 
 The environment this resource belongs to.
 
-For resources that are created and managed by the CDK
-(generally, those created by creating new class instances like Role, Bucket, etc.),
-this is always the same as the environment of the stack they belong to;
-however, for imported resources
-(those obtained from static methods like fromRoleArn, fromBucketName, etc.),
-that might be different than the stack they were imported into.
+For resources that are created and managed in a Stack (those created by
+creating new class instances like `new Role()`, `new Bucket()`, etc.), this
+is always the same as the environment of the stack they belong to.
+
+For referenced resources (those obtained from referencing methods like
+`Role.fromRoleArn()`, `Bucket.fromBucketName()`, etc.), they might be
+different than the stack they were imported into.
 
 ---
 
@@ -905,7 +906,7 @@ Check whether the given construct is a Resource.
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.EnvironmentBase.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@robhan-cdk-lib/aws_mwaa.EnvironmentBase.property.env">env</a></code> | <code>aws-cdk-lib.ResourceEnvironment</code> | The environment this resource belongs to. |
+| <code><a href="#@robhan-cdk-lib/aws_mwaa.EnvironmentBase.property.env">env</a></code> | <code>aws-cdk-lib.interfaces.ResourceEnvironment</code> | The environment this resource belongs to. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.EnvironmentBase.property.stack">stack</a></code> | <code>aws-cdk-lib.Stack</code> | The stack in which this resource is defined. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.EnvironmentBase.property.airflowConfigurationOptions">airflowConfigurationOptions</a></code> | <code>{[ key: string ]: string}</code> | A list of key-value pairs containing the Airflow configuration options for your environment. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.EnvironmentBase.property.environmentArn">environmentArn</a></code> | <code>string</code> | The ARN for the Amazon MWAA environment. |
@@ -962,16 +963,17 @@ The tree node.
 public readonly env: ResourceEnvironment;
 ```
 
-- *Type:* aws-cdk-lib.ResourceEnvironment
+- *Type:* aws-cdk-lib.interfaces.ResourceEnvironment
 
 The environment this resource belongs to.
 
-For resources that are created and managed by the CDK
-(generally, those created by creating new class instances like Role, Bucket, etc.),
-this is always the same as the environment of the stack they belong to;
-however, for imported resources
-(those obtained from static methods like fromRoleArn, fromBucketName, etc.),
-that might be different than the stack they were imported into.
+For resources that are created and managed in a Stack (those created by
+creating new class instances like `new Role()`, `new Bucket()`, etc.), this
+is always the same as the environment of the stack they belong to.
+
+For referenced resources (those obtained from referencing methods like
+`Role.fromRoleArn()`, `Bucket.fromBucketName()`, etc.), they might be
+different than the stack they were imported into.
 
 ---
 
@@ -2574,7 +2576,7 @@ A subnet must be attached to the same VPC as the security group.
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.IEnvironment.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@robhan-cdk-lib/aws_mwaa.IEnvironment.property.env">env</a></code> | <code>aws-cdk-lib.ResourceEnvironment</code> | The environment this resource belongs to. |
+| <code><a href="#@robhan-cdk-lib/aws_mwaa.IEnvironment.property.env">env</a></code> | <code>aws-cdk-lib.interfaces.ResourceEnvironment</code> | The environment this resource belongs to. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.IEnvironment.property.stack">stack</a></code> | <code>aws-cdk-lib.Stack</code> | The stack in which this resource is defined. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.IEnvironment.property.airflowConfigurationOptions">airflowConfigurationOptions</a></code> | <code>{[ key: string ]: string}</code> | A list of key-value pairs containing the Airflow configuration options for your environment. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.IEnvironment.property.environmentArn">environmentArn</a></code> | <code>string</code> | The ARN for the Amazon MWAA environment. |
@@ -2631,16 +2633,17 @@ The tree node.
 public readonly env: ResourceEnvironment;
 ```
 
-- *Type:* aws-cdk-lib.ResourceEnvironment
+- *Type:* aws-cdk-lib.interfaces.ResourceEnvironment
 
 The environment this resource belongs to.
 
-For resources that are created and managed by the CDK
-(generally, those created by creating new class instances like Role, Bucket, etc.),
-this is always the same as the environment of the stack they belong to;
-however, for imported resources
-(those obtained from static methods like fromRoleArn, fromBucketName, etc.),
-that might be different than the stack they were imported into.
+For resources that are created and managed in a Stack (those created by
+creating new class instances like `new Role()`, `new Bucket()`, etc.), this
+is always the same as the environment of the stack they belong to.
+
+For referenced resources (those obtained from referencing methods like
+`Role.fromRoleArn()`, `Bucket.fromBucketName()`, etc.), they might be
+different than the stack they were imported into.
 
 ---
 

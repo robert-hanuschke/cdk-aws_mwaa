@@ -7,7 +7,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     secret: 'GITHUB_TOKEN',
   },
   autoApproveUpgrades: true,
-  cdkVersion: '2.221.0',
+  cdkVersion: '2.224.0',
   defaultReleaseBranch: 'main',
   deps: [
     '@robhan-cdk-lib/utils',
@@ -18,7 +18,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     },
   },
   description: 'AWS CDK Construct Library for Amazon Managed Workflows for Apache Airflow',
-  jsiiVersion: '~5.8.0',
+  jsiiVersion: '~5.9.0',
   keywords: ['Airflow', 'Amazon Managed Workflows for Apache Airflow', 'Apache Airflow', 'MWAA'],
   license: 'MIT',
   name: 'aws_mwaa',
@@ -28,12 +28,12 @@ const project = new awscdk.AwsCdkConstructLibrary({
   publishToGo: {
     moduleName: 'github.com/robert-hanuschke/robhan-cdk-lib-aws-mwaa',
   },
-  /*   publishToMaven: {
+  publishToMaven: {
     javaPackage: 'io.github.roberthanuschke.cdk.aws.mwaa',
     mavenGroupId: 'io.github.robert-hanuschke',
     mavenArtifactId: 'cdk-aws-mwaa',
     mavenServerId: 'central-ossrh',
-  }, */
+  },
   publishToNuget: {
     dotNetNamespace: 'Robhan.CdkLib',
     packageId: 'Robhan.CdkLib.AwsMwaa',
