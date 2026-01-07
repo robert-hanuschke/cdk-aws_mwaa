@@ -812,10 +812,10 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.9.tgz#d229a7b7f9dac167a156992ef23c7f023653f53b"
   integrity sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==
 
-"@robhan-cdk-lib/utils@^0.0.137":
-  version "0.0.137"
-  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.137.tgz#9dbee082b8895ffac628d74f85a50e696c818cb0"
-  integrity sha512-sisqwuJUfbxkSX7Ulx/ee2b6DYoaM+xxFsjMW+GPYBovuNdXh5h01XRWA5PpjvUFvALjp+in142oqpaM17YM2w==
+"@robhan-cdk-lib/utils@^0.0.138":
+  version "0.0.138"
+  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.138.tgz#303bdd687b20df1688f6ca181690fa708e2818ba"
+  integrity sha512-TA2010ZSR6a8cermeinoFHorZBplRuCzDNf9rME4SAyQEbyV2zv1dd0rBLkfleFAqV64KP5A1+P9jxdsubBPAA==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -823,9 +823,9 @@
   integrity sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==
 
 "@sinclair/typebox@^0.34.0":
-  version "0.34.46"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.34.46.tgz#33ea674ef3fbc46733c6d124ae94a6826abaf8cf"
-  integrity sha512-kiW7CtS/NkdvTUjkjUJo7d5JsFfbJ14YjdhDk9KoEgK6nFjKNXZPrX0jfLA8ZlET4cFLHxOZ/0vFKOP+bOxIOQ==
+  version "0.34.47"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.34.47.tgz#61b684d8a20d2890b9f1f7b0d4f76b4b39f5bc0d"
+  integrity sha512-ZGIBQ+XDvO5JQku9wmwtabcVTHJsgSWAHYtVuM9pBNNR5E88v6Jcj/llpmsjivig5X8A8HHOb4/mbEKPS5EvAw==
 
 "@sinonjs/commons@^3.0.1":
   version "3.0.1"
