@@ -812,10 +812,10 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.9.tgz#d229a7b7f9dac167a156992ef23c7f023653f53b"
   integrity sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==
 
-"@robhan-cdk-lib/utils@^0.0.141":
-  version "0.0.141"
-  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.141.tgz#31dfa05cdbf62ba8ce7a4048b058e5ad369a14fb"
-  integrity sha512-hGfRptpd5b5p4hujWReA57sJ256/J4X31pm43Ew7PK8YAEUT6SgrfbohEcCcdb1+wTBUVoMc6GlPkU/P8tkAJg==
+"@robhan-cdk-lib/utils@^0.0.142":
+  version "0.0.142"
+  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.142.tgz#afc5a12e1cab4e6171c96a5406d9b8f94b613a09"
+  integrity sha512-COlkBX3YEBaj+L9YEClzwedRqv4ERxFgOACysWK1grUiVSzuwVW/mSSI4sWaAA8EcUQgw0gDm4MEfIgR4HsIvg==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -960,16 +960,16 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*":
-  version "25.0.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.0.5.tgz#7ee6356607b9c93b9d25bf5c5e8f8a8ed6240877"
-  integrity sha512-FuLxeLuSVOqHPxSN1fkcD8DLU21gAP7nCKqGRJ/FglbCUBs0NYN6TpHcdmyLeh8C0KwGIaZQJSv+OYG+KZz+Gw==
+  version "25.0.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.0.6.tgz#5ca3c46f2b256b59128f433426e42d464765dab1"
+  integrity sha512-NNu0sjyNxpoiW3YuVFfNz7mxSQ+S4X2G28uqg2s+CzoqoQjLPsWSbsFFyztIAqt2vb8kfEAsJNepMGPTxFDx3Q==
   dependencies:
     undici-types "~7.16.0"
 
-"@types/node@^24.10.6":
-  version "24.10.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.6.tgz#6070ebcb8045885f7c5afbb113d53236a37be20c"
-  integrity sha512-B8h60xgJMR/xmgyX9fncRzEW9gCxoJjdenUhke2v1JGOd/V66KopmWrLPXi5oUI4VuiGK+d+HlXJjDRZMj21EQ==
+"@types/node@^24.10.7":
+  version "24.10.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.7.tgz#516502e408f6d00afd230f291bfe3ad38105a73e"
+  integrity sha512-+054pVMzVTmRQV8BhpGv3UyfZ2Llgl8rdpDTon+cUH9+na0ncBVXj3wTUKh14+Kiz18ziM3b4ikpP5/Pc0rQEQ==
   dependencies:
     undici-types "~7.16.0"
 
