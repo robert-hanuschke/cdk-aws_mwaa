@@ -797,10 +797,10 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.9.tgz#d229a7b7f9dac167a156992ef23c7f023653f53b"
   integrity sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==
 
-"@robhan-cdk-lib/utils@^0.0.154":
-  version "0.0.154"
-  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.154.tgz#de034bbe4d99d954c34dfb19487f7ecb28f9dccf"
-  integrity sha512-0RUrH/0LzphKUZtzXQyPebqmSoWDdvyKKs+A7skQk+TLLTTAdp8bnJUVakb5O2q0IGXGShz6kyEqxKvs02P+wQ==
+"@robhan-cdk-lib/utils@^0.0.155":
+  version "0.0.155"
+  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.155.tgz#b877d685d016920df9c923bed1093713e3ebef0d"
+  integrity sha512-XYYuRSVr51gZZhr8LNnbCaiEtlsnwXzP8G2p9CdLzmF70hKTnrOv43VkZ7H0YjsVKLAGP/jLfKT+XRxNqyCuxA==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -3785,9 +3785,9 @@ jsii-rosetta@~5.9.0:
     yargs "^17.7.2"
 
 jsii@~5.9.0, jsii@~5.9.1:
-  version "5.9.23"
-  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.9.23.tgz#0a5eac3d1fdfbd7dbdc03de66259114d9b1f4845"
-  integrity sha512-bIPRjOVyBRFl3cmx0kcnTqt3abMazlQvpq67Oix9Ku0jpICaXQv0OJoL/qaUkSl8QXgalUzNOUuxMBjZi680Yw==
+  version "5.9.24"
+  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.9.24.tgz#5f3a14cc4f4227c954800e61a1941f2d4bebe595"
+  integrity sha512-eowVs75a3ujh1N56Gh3dwAVu750SFr5oj+2FVMTnGnwdYd1+OSOovNXaCuT8FXhKm0JjyPUKUF4qgQLmeDp/hQ==
   dependencies:
     "@jsii/check-node" "1.125.0"
     "@jsii/spec" "1.125.0"
