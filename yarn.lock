@@ -797,10 +797,10 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.9.tgz#d229a7b7f9dac167a156992ef23c7f023653f53b"
   integrity sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==
 
-"@robhan-cdk-lib/utils@^0.0.161":
-  version "0.0.161"
-  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.161.tgz#ad83b99f83660ccec8970a02c958863903c54c8e"
-  integrity sha512-js5G/dxU1UAt+V6e3s25JPdZjhCJ+cj1kDUu/xRLsB0Slxz3NqaV1JuN2L+fMulh0eB6VaiEubLQlqAsZS1f1g==
+"@robhan-cdk-lib/utils@^0.0.162":
+  version "0.0.162"
+  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.162.tgz#95d01891576ee1de1f8464b0121163b0ac477474"
+  integrity sha512-0TraWHxXU3EICw57KDNoAhbSYQdv0oPm0SToeOpNdITi7JexRVXrr+5Jz073wSR3q46/bP9ag7+h0dbAqCdGzg==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -951,10 +951,10 @@
   dependencies:
     undici-types "~7.16.0"
 
-"@types/node@^24.10.9":
-  version "24.10.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.9.tgz#1aeb5142e4a92957489cac12b07f9c7fe26057d0"
-  integrity sha512-ne4A0IpG3+2ETuREInjPNhUGis1SFjv1d5asp8MzEAGtOZeTeHVDOYqOgqfhvseqg/iXty2hjBf1zAOb7RNiNw==
+"@types/node@^24.10.10":
+  version "24.10.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.10.tgz#ea4813a65368ca7a98dfd75c84d748831b63e1cf"
+  integrity sha512-+0/4J266CBGPUq/ELg7QUHhN25WYjE0wYTPSQJn1xeu8DOlIOPxXxrNGiLmfAWl7HMMgWFWXpt9IDjMWrF5Iow==
   dependencies:
     undici-types "~7.16.0"
 
@@ -2116,9 +2116,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.5.263:
-  version "1.5.283"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.283.tgz#51d492c37c2d845a0dccb113fe594880c8616de8"
-  integrity sha512-3vifjt1HgrGW/h76UEeny+adYApveS9dH2h3p57JYzBSXJIKUJAvtmIytDKjcSCt9xHfrNCFJ7gts6vkhuq++w==
+  version "1.5.286"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.286.tgz#142be1ab5e1cd5044954db0e5898f60a4960384e"
+  integrity sha512-9tfDXhJ4RKFNerfjdCcZfufu49vg620741MNs26a9+bhLThdB+plgMeou98CAaHu/WATj2iHOOHTp1hWtABj2A==
 
 emittery@^0.13.1:
   version "0.13.1"
