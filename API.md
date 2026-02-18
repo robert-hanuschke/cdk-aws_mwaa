@@ -43,6 +43,7 @@ new Environment(scope: Construct, id: string, props: EnvironmentProps)
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.Environment.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@robhan-cdk-lib/aws_mwaa.Environment.with">with</a></code> | Applies one or more mixins to this construct. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.Environment.applyRemovalPolicy">applyRemovalPolicy</a></code> | Apply the given removal policy to this resource. |
 
 ---
@@ -54,6 +55,27 @@ public toString(): string
 ```
 
 Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@robhan-cdk-lib/aws_mwaa.Environment.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@robhan-cdk-lib/aws_mwaa.Environment.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
 
 ##### `applyRemovalPolicy` <a name="applyRemovalPolicy" id="@robhan-cdk-lib/aws_mwaa.Environment.applyRemovalPolicy"></a>
 
@@ -793,6 +815,7 @@ new EnvironmentBase(scope: Construct, id: string, props?: ResourceProps)
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.EnvironmentBase.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@robhan-cdk-lib/aws_mwaa.EnvironmentBase.with">with</a></code> | Applies one or more mixins to this construct. |
 | <code><a href="#@robhan-cdk-lib/aws_mwaa.EnvironmentBase.applyRemovalPolicy">applyRemovalPolicy</a></code> | Apply the given removal policy to this resource. |
 
 ---
@@ -804,6 +827,27 @@ public toString(): string
 ```
 
 Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@robhan-cdk-lib/aws_mwaa.EnvironmentBase.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@robhan-cdk-lib/aws_mwaa.EnvironmentBase.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
 
 ##### `applyRemovalPolicy` <a name="applyRemovalPolicy" id="@robhan-cdk-lib/aws_mwaa.EnvironmentBase.applyRemovalPolicy"></a>
 
