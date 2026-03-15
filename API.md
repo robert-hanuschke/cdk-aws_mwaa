@@ -73,8 +73,6 @@ constructs.
 
 - *Type:* ...constructs.IMixin[]
 
-The mixins to apply.
-
 ---
 
 ##### `applyRemovalPolicy` <a name="applyRemovalPolicy" id="@robhan-cdk-lib/aws_mwaa.Environment.applyRemovalPolicy"></a>
@@ -844,8 +842,6 @@ constructs.
 ###### `mixins`<sup>Required</sup> <a name="mixins" id="@robhan-cdk-lib/aws_mwaa.EnvironmentBase.with.parameter.mixins"></a>
 
 - *Type:* ...constructs.IMixin[]
-
-The mixins to apply.
 
 ---
 
