@@ -814,10 +814,10 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.3.6.tgz#3569708bd4be4d8870ba32bf1c456dac81600d97"
   integrity sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA==
 
-"@robhan-cdk-lib/utils@^0.0.315":
-  version "0.0.315"
-  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.315.tgz#3d641b3f789a73b617c1cef5d71111100b6fc6a4"
-  integrity sha512-IzBIg9R7YnPmZNa0evqbqPRT23zvvFSEbG6GhAebIYdkNA0XPbhDnzBdD337J1v45DPT7zlc7BzfWz2DASXdQw==
+"@robhan-cdk-lib/utils@^0.0.316":
+  version "0.0.316"
+  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.316.tgz#4c276cd2e73bbaa0788f5d5a8fee5342bb83646d"
+  integrity sha512-OdBJOUgha4NXbVmVcUitig3RZ2fXKHgeDxjU/88fFbbEmMS7schtKFbRoVszsuQZTLr6fcn4nYcNrkyL7p74gQ==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -2164,9 +2164,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.5.402:
-  version "1.5.404"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.404.tgz#9f34e6d20ae29575fbae701680c2e9f292a92929"
-  integrity sha512-3WJtd7/lVq2Jnuz6wed1l9+1ZD2u2Tet1/1NBc4Iedkmgbu+I7YuAqdAQ8T+VZtnwysMsAf3IqSq9D1gyZjA2g==
+  version "1.5.405"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.405.tgz#23f14200334395a0801b79fc371a86daf02fd35e"
+  integrity sha512-bNglH7lPH5l+yHOes7Zr4VqxhOy4BQ9ZBUX4VdoFgxMpzJk7W1ZoO3Vgd9Pxa9PyjQ76sfm2aKH/nzEcCNRlew==
 
 emittery@^0.13.1:
   version "0.13.1"
