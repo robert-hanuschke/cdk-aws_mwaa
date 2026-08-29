@@ -921,10 +921,10 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.3.6.tgz#3569708bd4be4d8870ba32bf1c456dac81600d97"
   integrity sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA==
 
-"@robhan-cdk-lib/utils@^0.0.327":
-  version "0.0.327"
-  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.327.tgz#c6d12aadb937c4b55c7fdc82c547cf3d2fb0b1a6"
-  integrity sha512-AEfKCjmH2hNvye0FPWhr6j0oSdJ/7tU7Le7AhjsOwowPPHEtuoTFsmxxU/TV9PQ1EjMdh4ZrHgw67txtVUl7Lw==
+"@robhan-cdk-lib/utils@^0.0.328":
+  version "0.0.328"
+  resolved "https://registry.yarnpkg.com/@robhan-cdk-lib/utils/-/utils-0.0.328.tgz#2a3ad4922bf76f60f37e7263a104d34259001eac"
+  integrity sha512-zn3ov7u2iNl07NkuL+/AyUiNJYpB9DJhHahE5ah1OaxWhchk/hHIQWj1Oqi71r1979YDTX3yEMJKnIlE5l9mYA==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -2700,9 +2700,9 @@ fast-xml-parser@^5.5.6:
     xml-naming "^0.3.0"
 
 fastq@^1.6.0:
-  version "1.20.2"
-  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.20.2.tgz#b762f46b4fa9c563adba6dd213a8984d8a5cd59f"
-  integrity sha512-UpGiiODyCGprM8EPP6JodP6jC9Rws6TCuiDOD+nn0CJhR8guI3g/ozo4ugL0vJ+Yz1UtJuuRPqvQuybVOF1VQA==
+  version "1.20.3"
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.20.3.tgz#7ab8731e647b56abcfeee997dae333ca3ee1d04d"
+  integrity sha512-XKv5nnLs6nLF71NgiKJLIZFLkPyIEuOselLG7ujZnGrRfQK8HpvY+WqKhAJUAdLomwVHErVS4LfxFlPq0/FTAw==
   dependencies:
     reusify "^1.0.4"
 
@@ -4697,10 +4697,10 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-projen@^0.103.7:
-  version "0.103.7"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.103.7.tgz#f573645cbf1c0350b81d99803c3d28486deaa7f5"
-  integrity sha512-3YQ7BfXIgnRhbRr7qWMZz09kc9rgOzW1uno4sjlM5UtziBigOcELulrYS5STSpAvdaEtv8XitcnMna/m9xC5kQ==
+projen@^0.103.10:
+  version "0.103.10"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.103.10.tgz#19dacabbd90abad7588b54a6774e58dbad9c820d"
+  integrity sha512-CiX+VsdvGWvWb9qpMUhZm3MyNV0CSPuUT7bkBNsFcRr65NywSpdQ2MkKtfaht683C+wB8AVYWyfPxF+k1vja/w==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
