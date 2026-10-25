@@ -68,7 +68,7 @@
     "constructs": "^10.5.1"
   },
   "dependencies": {
-    "@robhan-cdk-lib/utils": "^0.0.353"
+    "@robhan-cdk-lib/utils": "^0.0.354"
   },
   "keywords": [
     "Airflow",
